@@ -1,0 +1,144 @@
+/*
+SCSS variables and mixins
+*/
+/*
+Some styles to make this demo look pretty (or at least decent)
+If you want to style everything yourself, you shouldn't need these
+*/
+
+
+/*.tabbed-content {
+   background: #fff;
+  box-shadow: 1px 1px 6px #ccc;
+  /* max-width: 600px; 
+  padding: 1em;
+  margin: 1em auto;
+  padding: 50px 0 0; 
+}*/
+
+.tabs ul {
+    padding: 0;
+    font-weight: bold;
+    margin: 0 auto;
+    float: none;
+    display: inline-block;
+}
+.tabs ul li {
+
+  float: left;
+}
+.tabs ul li a {
+  padding: 20px 40px;
+    line-height: 18px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: #000;
+    background: none;
+    float: left;
+    border: #e6e9eb 1px solid;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.tabs ul li a.active {
+  font-weight: 900;
+  color: #000;
+  margin-top: 0;
+  padding: 25px 40px;
+  border-bottom: #fff 1px solid;
+}
+
+.item {
+  margin-bottom: 2px;
+}
+.item::before {
+  cursor: pointer;
+  font-weight: bold;
+  background: #F7F9Fa url(../images/down-arrw-img.png) no-repeat 95% 50%;
+  /* padding: .5em; */
+  display: block;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  font-weight: 400;
+}
+.item.active::before {
+  background: #F7F9Fa url(../images/up-arrw-img.png) no-repeat 95% 50%;
+  color: #000;
+  font-weight: 900;
+}
+.item.active .item-content {
+  padding: 1em;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media all and (min-width: 800px) {
+  .item.active .item-content {
+    padding-top: 0;
+  }
+
+  .tabs-side .tabs li {
+    margin-bottom: 2px;
+  }
+}
+/* 
+The project specific CSS starts here
+This is the minimum CSS that you will need in order for this to work
+*/
+.tabbed-content .tabs {
+  display: none;
+}
+.tabbed-content .item {
+  min-height: 2em;
+}
+.tabbed-content .item::before {
+  content: attr(data-title);
+}
+.tabbed-content .item .item-content {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+}
+.tabbed-content .item.active .item-content {
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+}
+
+@media all and (min-width: 800px) {
+  .tabbed-content .tabs {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+  }
+  .tabbed-content .tabs li {
+    display: inline-block;
+  }
+  .tabbed-content .tabs li a {
+    display: block;
+  }
+  .tabbed-content .item {
+    min-height: 0;
+    
+  }
+  .tabbed-content .item::before {
+    display: none;
+  }
+  .tabbed-content.tabs-side .tabs {
+    width: 150px;
+    float: left;
+  }
+  .tabbed-content.tabs-side .tabs li {
+    display: block;
+  }
+  .tabbed-content.tabs-side .item {
+    margin-left: 150px;
+  }
+}
