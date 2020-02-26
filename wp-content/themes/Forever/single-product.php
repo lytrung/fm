@@ -144,14 +144,15 @@
           <div class="col-lg-6 col-md-8 col-12 prod-detail-content">
             <div class="display-table">
                 <div class="table-cell">
-                <h2><?php the_title(); ?><span><?php the_field('quantity'); ?></span></h2>
-                <p><?php the_field('description'); ?></p>
-                <a href="<?php the_field('buy_link'); ?>"><button type="button"></button></a>
-                <strong><?php the_field('instructions'); ?></strong>
-                <div class="share-box">
-                  <span>share</span>
-                  <?php wcr_share_buttons(); ?>
-                </div>
+                  <h2><?php the_title(); ?><span><?php the_field('quantity'); ?></span></h2>
+                  <p><?php the_field('description'); ?></p>
+                  <p>Available at Chemist Warehouse</p>
+                  <a href="<?php the_field('buy_link'); ?>"><button type="button"></button></a>
+                  <strong><?php the_field('instructions'); ?></strong>
+                  <div class="share-box">
+                    <span>share</span>
+                    <?php wcr_share_buttons(); ?>
+                  </div>
               </div>
             </div>
           </div>

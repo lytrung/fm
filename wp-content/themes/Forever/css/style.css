@@ -600,7 +600,7 @@ figure.follow-link:hover figcaption::before, figure.follow-link:hover p {opacity
 .prod-detail-section .prod-detail-content h2 {font-size: 32px; font-weight: 900; color: #000; text-transform: uppercase;}
 .prod-detail-section .prod-detail-content h2 span {display: block; font: 700 24px/32px 'Open Sans Condensed', sans-serif; letter-spacing: -0.2px; padding: 0 0 10px; text-transform: none;}
 .prod-detail-section .prod-detail-content p {display: block; font: 300 24px/32px 'Open Sans Condensed', sans-serif; letter-spacing: -0.2px; padding: 0 0 5px;}
-.prod-detail-section .prod-detail-content button[type='button'] {background: url(../images/buy-on-health-btn.png) no-repeat 50% 50%; width: 220px; height: 60px; border: none; cursor: pointer; margin: 0 0 20px; outline: none; }
+.prod-detail-section .prod-detail-content button[type='button'] {background: url(../images/store_chemistwarehouse.png) no-repeat 50% 50%; width: 147px; height: 107px; border: none; cursor: pointer; margin: 0 0 20px; outline: none; }
 .prod-detail-section .prod-detail-content strong {display: block; font: 700 18px/26px 'Open Sans Condensed', sans-serif; letter-spacing: -0.2px;}
 .prod-detail-section .prod-detail-content .share-box {display: inline-block; padding: 50px 0 0;}
 .prod-detail-section .prod-detail-content .share-box span {font: 300 18px/26px 'Open Sans Condensed', sans-serif; letter-spacing: -.2px; float: left;}
