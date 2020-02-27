@@ -587,6 +587,14 @@ figure.follow-link:hover figcaption::before, figure.follow-link:hover p {opacity
 .overview-box p {font: 300 18px/26px 'Open Sans Condensed', sans-serif;}
 .overview-box p strong {font-weight: 700}
 
+.warnings-box p {font: 300 18px/26px 'Open Sans Condensed', sans-serif;}
+.warnings-box p strong {font-weight: 700}
+
+.common-uses-box p {font: 300 18px/26px 'Open Sans Condensed', sans-serif;}
+.common-uses-box p strong {font-weight: 700}
+.common-uses-box ul {list-style-type: none; margin: 0; padding: 0; border-top: #e6e9eb 1px solid;}
+.common-uses-box ul li {border-bottom: #e6e9eb 1px solid; color: #000; font: 300 18px/26px 'Open Sans Condensed', sans-serif; letter-spacing: -0.2px; padding: 10px 0;}
+  
 .direction-box p {font: 300 18px/26px 'Open Sans Condensed', sans-serif;}
 .direction-box p strong {font-weight: 700}
 

@@ -57,115 +57,105 @@
 
         <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="list-menu">
-            <h4>CONNECT</h4>
+<!--             <h4>CONNECT</h4>
             <div class="connect-box">
-			<?php
-				$form_widget = new \MailPoet\Form\Widget();
-				echo $form_widget->widget(array('form' => 2, 'form_type' => 'php'));
-			?>
-                <!--<form>
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
-                  </div>
-                  <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>stage</option>
-                    </select>
-                  </div>
-                  <button type="submit" class="btn btn-dark">subscribe</button>
-                </form>-->
+      			<?php
+      				// $form_widget = new \MailPoet\Form\Widget();
+      				// echo $form_widget->widget(array('form' => 2, 'form_type' => 'php'));
+      			?>
+
             </div>
-			<style>
-			.connect-box #mailpoet_form_2 p.mailpoet_paragraph input[type="email"]
-			{
-				display: block;
-				width: 100%;
-				padding: 0.375rem 0.75rem;
-				font-size: 1rem;
-				line-height: 1.5;
-				color: #495057;
-				background-color: #fff;
-				background-clip: padding-box;
-				border: 1px solid #ced4da;
-				border-radius: 0.25rem;
-				transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-			}
-			.connect-box #mailpoet_form_2 p.mailpoet_paragraph select 
-			{
-				display: block;
-				width: 100%;
-				padding: 0.375rem 0.75rem;
-				font-size: 1rem;
-				line-height: 1.5;
-				color: #495057;
-				background-color: #fff;
-				background-clip: padding-box;
-				border: 1px solid #ced4da;
-				border-radius: 0.25rem;
-				transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-			}
-			.connect-box #mailpoet_form_2 p.mailpoet_paragraph input[type="submit"] 
-			{
-				display: inline-block;
-				font-weight: 400;
-				text-align: center;
-				white-space: nowrap;
-				vertical-align: middle;
-				-webkit-user-select: none;
-				-moz-user-select: none;
-				-ms-user-select: none;
-				user-select: none;
-				border: 1px solid transparent;
-				padding: 0.375rem 0.75rem;
-				font-size: 1rem;
-				line-height: 1.5;
-				border-radius: 0.25rem;
-				transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-				color: #fff;
-				background-color: #343a40;
-				border-color: #343a40;
-				cursor:pointer;
-			}
-			.connect-box #mailpoet_form_2 p.mailpoet_paragraph input[type="submit"]:hover 
-			{
-				color: #fff;
-				background-color: #23272b;
-				border-color: #1d2124;
-			}
-			.parsley-errors-list.filled
-			{
-				padding: 0px;
-				margin: 0px;
-			}
-			.parsley-errors-list.filled .parsley-custom-error-message
-			{
-				line-height: initial;
-				font-size: 11px;
-				font-weight: 700;
-				    text-transform: inherit;
-			}
-			#mailpoet_form_2 .mailpoet_paragraph 
-			{
-				line-height: initial;
-				margin-bottom: 6px !important;
-				color:#e20f44;
-			}
-			.parsley-required, .parsley-custom-error-message {
-    color:#e20f44;
-    margin-top: 4px;
-}
-			.mailpoet_message
-			{
-				
-				color: #468847 !important ;
-			}
-			.mailpoet_message .mailpoet_validate_success
-			{
-				color: #FFF;
-				
-				line-height: inherit;
-			}
-			</style>
+      			<style>
+          			.connect-box #mailpoet_form_2 p.mailpoet_paragraph input[type="email"]
+          			{
+          				display: block;
+          				width: 100%;
+          				padding: 0.375rem 0.75rem;
+          				font-size: 1rem;
+          				line-height: 1.5;
+          				color: #495057;
+          				background-color: #fff;
+          				background-clip: padding-box;
+          				border: 1px solid #ced4da;
+          				border-radius: 0.25rem;
+          				transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+          			}
+          			.connect-box #mailpoet_form_2 p.mailpoet_paragraph select 
+          			{
+          				display: block;
+          				width: 100%;
+          				padding: 0.375rem 0.75rem;
+          				font-size: 1rem;
+          				line-height: 1.5;
+          				color: #495057;
+          				background-color: #fff;
+          				background-clip: padding-box;
+          				border: 1px solid #ced4da;
+          				border-radius: 0.25rem;
+          				transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+          			}
+          			.connect-box #mailpoet_form_2 p.mailpoet_paragraph input[type="submit"] 
+          			{
+          				display: inline-block;
+          				font-weight: 400;
+          				text-align: center;
+          				white-space: nowrap;
+          				vertical-align: middle;
+          				-webkit-user-select: none;
+          				-moz-user-select: none;
+          				-ms-user-select: none;
+          				user-select: none;
+          				border: 1px solid transparent;
+          				padding: 0.375rem 0.75rem;
+          				font-size: 1rem;
+          				line-height: 1.5;
+          				border-radius: 0.25rem;
+          				transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+          				color: #fff;
+          				background-color: #343a40;
+          				border-color: #343a40;
+          				cursor:pointer;
+          			}
+          			.connect-box #mailpoet_form_2 p.mailpoet_paragraph input[type="submit"]:hover 
+          			{
+          				color: #fff;
+          				background-color: #23272b;
+          				border-color: #1d2124;
+          			}
+          			.parsley-errors-list.filled
+          			{
+          				padding: 0px;
+          				margin: 0px;
+          			}
+          			.parsley-errors-list.filled .parsley-custom-error-message
+          			{
+          				line-height: initial;
+          				font-size: 11px;
+          				font-weight: 700;
+          				    text-transform: inherit;
+          			}
+          			#mailpoet_form_2 .mailpoet_paragraph 
+          			{
+          				line-height: initial;
+          				margin-bottom: 6px !important;
+          				color:#e20f44;
+          			}
+          			.parsley-required, .parsley-custom-error-message {
+                    color:#e20f44;
+                    margin-top: 4px;
+                }
+          			.mailpoet_message
+          			{
+          				
+          				color: #468847 !important ;
+          			}
+          			.mailpoet_message .mailpoet_validate_success
+          			{
+          				color: #FFF;
+          				
+          				line-height: inherit;
+          			}
+      			</style> -->
           </div>
         </div>
 

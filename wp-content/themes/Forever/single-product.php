@@ -175,31 +175,44 @@
     <!--Horizontal Tab-->
     <div id="parentHorizontalTab">
             <ul class="resp-tabs-list hor_1">
-                <li>overview</li>
-                <li>directions</li>
+                <li>General Information</li>
+                <li>Warnings</li>
+                <li>Common Uses</li>
                 <li>Ingredients</li>
+                <li>Directions</li>
             </ul>
             <div class="resp-tabs-container hor_1">
                 <div>
-                <div class="item-content overview-box">
-              <?php the_field('main_content'); ?>
-              <div class="ovrview-list">
-                <div class="row">
-                  <?php the_field('pointers'); ?>
-                </div>
-              </div>  
-            </div>
-                </div>
-                <div>
-                <div class="item-content direction-box">
-                  <?php the_field('content'); ?>
-                </div>
+                  <div class="item-content overview-box">
+                    <?php the_field('main_content'); ?>
+                    <div class="ovrview-list">
+                      <div class="row">
+                        <?php the_field('pointers'); ?>
+                      </div>
+                    </div>  
+                  </div>
                 </div>
                 <div>
-                <div class="item-content ingredient-box">
-                  <?php the_field('list_content'); ?>
+                  <div class="item-content warnings-box">
+                    <?php the_field('warnings_content'); ?>
+                  </div>
                 </div>
+                <div>
+                  <div class="item-content common-uses-box">
+                    <?php the_field('common_uses_content'); ?>
+                  </div>
                 </div>
+                <div>
+                  <div class="item-content ingredient-box">
+                    <?php the_field('list_content'); ?>
+                  </div>
+                </div>
+                <div>
+                  <div class="item-content direction-box">
+                    <?php the_field('content'); ?>
+                  </div>
+                </div>
+
             </div>
         </div>
       <!-- <article class="tabbed-content">
