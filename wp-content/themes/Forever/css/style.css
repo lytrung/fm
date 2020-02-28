@@ -575,6 +575,8 @@ figure.follow-link:hover figcaption::before, figure.follow-link:hover p {opacity
 .product-section {padding: 50px 0 0;}
 .product-section h2 {font-weight: 900; text-transform: uppercase; font-size: 32px; padding: 0 0 10px}
 .product-section p {font: 300 24px 'Open Sans Condensed', sans-serif; letter-spacing: -0.2px; margin: 0 0 60px}
+.product-section .row {align-items: flex-end;}
+
 .product-box {padding: 0 0 50px;}
 .product-box a {color: #000; letter-spacing: -0.2px;}
 .product-box .product-imgbox {line-height: 0; text-align: center; cursor:pointer;}
