@@ -18,7 +18,8 @@ Template Name: Contact
       .quick-contact-widget p i { font-size: 14px; padding-right: 10px; color: #222; border: 1px solid #ddd;   display: inline-block; text-align: center; padding: 12px; height: 40px; width: 40px; margin-right: 10px; border-radius: 100%; float: left;}
       .contact-details{align-items: stretch;}
 
-      .contact-bg .btn {background-color:black; border-radius: 3px; color:white;}
+      .contact-bg .btn {background-color:#343a40; border-radius: 3px; color:white;}
+      .contact-bg .btn:hover {background-color:black;}
       .contact-bg span a{color: black;}
 
 </style>
