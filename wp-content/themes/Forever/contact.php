@@ -19,6 +19,7 @@ Template Name: Contact
       .contact-details{align-items: stretch;}
 
       .contact-bg .btn {background-color:black; border-radius: 3px; color:white;}
+      .contact-bg span a{color: black;}
 
 </style>
 
@@ -55,9 +56,9 @@ Template Name: Contact
            <div class="col-sm-6 col-md-6 contact-bg">
           
               <div class="quick-contact-widget"> 
-                  <p><i class="fa fa-phone" aria-hidden="true"></i><span>+64 9 415-8624</span></p>
+                  <p><i class="fa fa-phone" aria-hidden="true"></i><span><a href="tel:+64 9 415-8624">+64 9 415-8624</a></span></p>
                   <p><i class="fas fa-fax" aria-hidden="true"></i><span>+64 9 415-8593</span></p>
-                  <p><i class="fa fa-envelope" aria-hidden="true"></i><span>info@pharmacarenz.co.nz</span></p>
+                  <p><i class="fa fa-envelope" aria-hidden="true"></i><span><a href="mailto:info@pharmacarenz.co.nz">info@pharmacarenz.co.nz</a></span></p>
                   <p><i class="fa fa-map-marker"></i><span>228 Bush Road, Albany Auckland 0632, New Zealand</span></p>
                   <p><i class="fas fa-mail-bulk" aria-hidden="true"></i><span>PO Box 302 347, North Harbour, Auckland 0751, New Zealand</span></p>
                 
