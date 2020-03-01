@@ -10,13 +10,15 @@ Template Name: Contact
 <style>
   
       .contact-bg {padding: 40px;}
-      .contact-bg h4 { margin-bottom: 15px;}
+      .contact-bg h3 { margin-bottom: 15px; text-transform: uppercase; font: 700 18px 'Open Sans Condensed', sans-serif;}
       form label { margin-top: 15px; margin-bottom: 0px; font:300 18px/26px 'Open Sans Condensed', sans-serif;} 
       .form-control { border-radius: 0px;}
       .btn-primary { border-radius: 0px; font-weight: 500;}
       .quick-contact-widget p { display: flex; align-items: center; font:300 18px/26px 'Open Sans Condensed', sans-serif;}
       .quick-contact-widget p i { font-size: 14px; padding-right: 10px; color: #222; border: 1px solid #ddd;   display: inline-block; text-align: center; padding: 12px; height: 40px; width: 40px; margin-right: 10px; border-radius: 100%; float: left;}
       .contact-details{align-items: stretch;}
+
+      .contact-bg .btn {background-color:black; border-radius: 3px; color:white;}
 
 </style>
 
@@ -44,9 +46,9 @@ Template Name: Contact
       <div class="row contact-details">
            <div class="col-sm-6 col-md-6 contact-bg">
                
-             <h3>Drop us a Line</h3>
+                   <h3>Drop us a Line</h3>
 
-             <?php echo do_shortcode('[contact-form-7 id="55" title="Contact form 1"]');?>
+                   <?php echo do_shortcode('[contact-form-7 id="55" title="Contact form 1"]');?>
                
               
            </div>
