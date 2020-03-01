@@ -18,14 +18,14 @@
     Footer
   ============================-->
   <footer class="footer">
-    <div class="container desktop-view">
+    <div class="container">
       <div class="row">
-        <div class="col-md-2 col-lg-2">
+<!--         <div class="col-md-2 col-lg-2">
           <div class="footer-logo">
             <a href="https://www.health365.com.au/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/footer-logo-new.png" alt="health 365"></a>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-2">
+        </div> -->
+        <div class="col-sm-6 col-md-3 col-lg-3 foot-box2">
           <div class="list-menu">
 
             <h4>PHARMACARE</h4>
@@ -35,7 +35,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-2 col-lg-2">
+        <div class="col-sm-6 col-md-3 col-lg-3 foot-box3">
           <div class="list-menu">
 
             <h4>STAGES</h4>
@@ -45,7 +45,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-2 col-lg-3">
+        <div class="col-sm-6 col-md-3 col-lg-3 foot-box4">
           <div class="list-menu community-menu">
 
             <h4>COMMUNITY</h4>
@@ -55,13 +55,13 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="col-sm-6 col-md-3 col-lg-3 foot-box5">
           <div class="list-menu">
-<!--             <h4>CONNECT</h4>
+            <h4>CONNECT</h4>
             <div class="connect-box">
       			<?php
-      				// $form_widget = new \MailPoet\Form\Widget();
-      				// echo $form_widget->widget(array('form' => 2, 'form_type' => 'php'));
+      				$form_widget = new \MailPoet\Form\Widget();
+      				echo $form_widget->widget(array('form' => 2, 'form_type' => 'php'));
       			?>
 
             </div>
@@ -155,13 +155,13 @@
           				
           				line-height: inherit;
           			}
-      			</style> -->
+      			</style>
           </div>
         </div>
 
       </div>
     </div>
-    <div class="container mobile-view">
+<!--     <div class="container mobile-view">
         <div class="row">
           <div class="col-12 col-md-3 col-lg-3 foot-box1">
               <div class="list-menu">
@@ -222,11 +222,11 @@
           </div>
   
         </div>
-    </div>
+    </div> -->
     <div class="copyrights">
       <div class="container">
         <div class="row flex-row-reverse">
-          <div class="col-lg-3 text-right"><a href="https://www.pharmacare.com.au/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/footer-logo.png" alt="Pharmacare"></a></div>
+          <div class="col-lg-3 text-right"><a href="https://www.pharmacare.com.au/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pharmacare-logo.jpg" alt="Pharmacare"></a></div>
           <div class="col-lg-9"><p>©2020 Forever Mum. All rights reserved. Always read the label. Use only as directed. If symptoms persist, see your health care professional.</p></div>
       </div>
       </div>

@@ -55,24 +55,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5QT2JZ&gtm_auth=3DLGUAiYiwUI9Bgoa0R--A&gtm_preview=env-1&gtm_cookies_win=x"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  <!-- #subHeader start -->
-  <section id="sunHead" class="sub-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-lg-4 offset-lg-8 text-right sub-heading">
-          <ul class="nav-menu">
-            <li><a href="https://www.health365.com.au/products/all-brands/forever-mum">Shop onLINE</a></li>|<li><a href="https://www.pharmacare.com.au/">Pharmacare</a></li>|
-            <li class="menu-has-children"><a href="#" class="mr-0">Au</a>
-              <ul style="display:none">
-                  <li><a href="#">AUSTRALIA</a></li>
-                  <li><a href="#">CHINA</a></li>
-                </ul></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- #subHeader end -->
   <!-- #header start -->
   <header id="header" class="header header-hide">
     <div class="container">
